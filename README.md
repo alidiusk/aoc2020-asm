@@ -15,3 +15,5 @@ After you have built the code, you can run it with
 ```bash
 $ ./day01/soln
 ```
+
+Licensed under GPLv3.
