@@ -1,9 +1,6 @@
-SRCS=$(wildcard *.asm)
-OBJS=$(patsubst %.asm,%.o, $(SRCS))
-
 all: soln
 
-soln: soln.o string.o
+soln: soln.o
 	gcc -o $@ $? -no-pie
 
 %.o: %.asm
